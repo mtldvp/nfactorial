@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Deployed version of the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can see the deployed version here [ILoveDogs](https://nfaclovedogs.netlify.app).
 
-## Available Scripts
+
+## To test locally
 
 In the project directory, you can run:
+
+### `npm install`
+
+To install packages
 
 ### `npm start`
 
