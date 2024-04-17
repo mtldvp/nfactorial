@@ -1,0 +1,57 @@
+.donations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.donations-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.donations-content {
+  margin-top: 20px;
+}
+
+.donation-input {
+  margin: 10px 0;
+}
+
+.donate-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a transition effect */
+}
+
+.donate-button:hover {
+  background-color: #3e8e41;
+}
+
+.donations-impact {
+  margin-top: 20px;
+}
+
+.donations-impact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.donations-impact li {
+  padding: 5px;
+}
+.dogs-saved {
+  transition: all 0.5s ease-in-out;
+  font-size: 1.5rem;
+ 
+}
