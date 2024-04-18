@@ -35,7 +35,9 @@ const LearnAboutDogs = () => {
 
   const breedlist = paginatedBreeds.map((breed) => (
     <Grid item xs={12} sm={6} md={4} key={breed.id}>
-      <DogCard name={breed.breed} img={breed.img} origin={breed.origin} url={breed.url} />
+      <DogCard name={breed.breed} img={breed.img} origin={breed.origin} url={breed.url} weight={breed.meta.weight.dogs}
+        height={breed.meta.height.dogs} metaheight={breed.meta.height} metaweight={breed.meta.weight}
+      />
     </Grid>
   ));
 
@@ -48,10 +50,14 @@ const LearnAboutDogs = () => {
   <input type="text" value={searchTerm} onChange={handleSearchChange} placeholder="Search for a breed" style={{ width: '30%', marginRight: '10px' }} />
   <input type="text" value={originSearchTerm} onChange={handleOriginSearchChange} placeholder="Search by origin" style={{ width: '30%' }} />
 </div>
-      <Grid container spacing={3} style={{justifyContent: 'center'}}>
+<div style={{marginLeft:"4%",  marginRight:"4%", backgroundColor: '#f1f1f1',  borderRadius: '30px', marginBottom:"3%"}}>
+      <Grid container spacing={3} style={{justifyContent: 'center', paddingTop: "3%", paddingLeft: "3%"}}>
         {breedlist}
       </Grid>
+      <div style={{marginTop: "4%"}}>
       <Pagination count={totalPages} page={page} onChange={(event, value) => setPage(value)} />
+      </div>
+      </div>
     </div>
   );
 }

@@ -7,8 +7,8 @@
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Akba%C5%9F_cinsi_k%C3%B6pek.jpg/220px-Akba%C5%9F_cinsi_k%C3%B6pek.jpg",
     "meta": {
       "height": {
-        "dogs": "60-85 cm (24-33 in): 7",
-        "bitches": "50-75 cm (20-30 in): 7"
+        "dogs": "60-85 cm (24-33 in)",
+        "bitches": "50-75 cm (20-30 in)"
       },
       "weight": {
         "dogs": "45-65 kg (99-143 lb): 7",
@@ -347,8 +347,8 @@
     "url": "https://en.wikipedia.org/wiki/American_English_Coonhound",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/English_Coonhound.jpg/220px-English_Coonhound.jpg",
     "meta": {
-      "height": "in proportion to",
-      "weight": "in proportion to",
+      "height": "53-66 cm",
+      "weight": "7-12 kg",
       "coat": "Short to medium",
       "img_src_set": {
         "1.5x": "https://upload.wikimedia.org/wikipedia/commons/2/28/English_Coonhound.jpg"

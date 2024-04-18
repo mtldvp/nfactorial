@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaw, faHeart, faHandsHelping} from '@fortawesome/free-solid-svg-icons';
-import './home.css';
+import '../styles/Home.css';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import FlipMove from 'react-flip-move';
 import Box from '@mui/joy/Box';
@@ -14,7 +14,6 @@ import Typography from '@mui/joy/Typography';
 
 import { CRow, CCol, CWidgetStatsB } from '@coreui/react';
 
-import styles from './parallax.module.css'
 import { Link } from 'react-router-dom';
 
 

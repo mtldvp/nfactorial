@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Donations.css'; // Import CSS file for styling
+import '../styles/Donations.css'; // Import CSS file for styling
 
 function Donations() {
   const [donationAmount, setDonationAmount] = useState(0);
@@ -28,7 +28,7 @@ function Donations() {
     <div className="donations-container">
       <div className="donations-image">
         {/* Replace with a heartwarming image of a homeless dog */}
-        <img src={require("./saddog.jpg")} alt="Homeless Dog" />
+        <img src={require("../assets/img/saddog.jpg")} alt="Homeless Dog" />
       </div>
       <div className="donations-content">
         <h2>Help Save Homeless Dogs!</h2>
